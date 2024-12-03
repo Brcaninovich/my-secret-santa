@@ -1,7 +1,7 @@
 
 body {
-    font-family: "Comic Sans MS", "Arial", sans-serif;
-    background: linear-gradient(135deg, #003366, #5487b0);
+    font-family: "Mountains of Christmas", "Arial", sans-serif;
+    background: linear-gradient(135deg, #538fd0, #3e77a9);
     color: white;
     text-align: center;
     margin: 0;
@@ -14,7 +14,7 @@ body {
     font-weight: bold;
     margin-top: 20px;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    color: rgb(231, 146, 79);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -28,8 +28,9 @@ body {
 
 
 .draw-button {
-    background-color: #e63946;
-    color: white;
+    font-family: 'Comic Neue', 'Comic Sans MS', sans-serif;
+    background-color: #fcfcfc;
+    color: #538fd0;
     border: none;
     border-radius: 25px;
     padding: 15px 30px;
@@ -41,15 +42,16 @@ body {
 }
 
 .draw-button:hover {
-    background-color: #ff6f61;
+    background-color: #e1e1e1;
     transform: scale(1.1);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 
 .result {
+    font-family: 'Comic Neue', 'Comic Sans MS', sans-serif;
     margin-top: 20px;
-    color: #e7924f;
+    color: #ffd3ab;
 }
 
 .selected-name {
@@ -60,7 +62,7 @@ body {
     border-radius: 15px;
     margin-top: 10px;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    border: 2px solid #e7924f;
+    border: 2px solid #ffffff;
 }
 
 
@@ -72,9 +74,10 @@ body {
 
 
 .name-input input {
+    font-family: 'Comic Neue', 'Comic Sans MS', sans-serif;
     background-color: #ffffff;
     color: #003366;
-    border: 2px solid #ff4747;
+    border: 2px solid #3a3a3a;
     padding: 12px;
     font-size: 16px;
     border-radius: 10px;
@@ -86,7 +89,7 @@ body {
 
 
 .name-input input:focus {
-    border-color: #00ffcc;
+    border-color: #ff9100;
     outline: none;
     background-color: #f0f8ff;
 }

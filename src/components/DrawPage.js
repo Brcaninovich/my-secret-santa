@@ -77,7 +77,7 @@ function DrawPage() {
 
     return (
         <div className="draw-page">
-            <header className="header">Dženin Secret Santa</header>
+            <header className="header">Secret Santa</header>
             <div className="content">
                 {!drawnName && (
                     <div className="name-input">
