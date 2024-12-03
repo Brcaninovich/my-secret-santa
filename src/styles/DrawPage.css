@@ -1,0 +1,92 @@
+/* Globalni stil */
+body {
+    font-family: "Comic Sans MS", "Arial", sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Glavni sadržaj */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Dugme */
+.draw-button {
+    background-color: #ff4747;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.draw-button:hover {
+    background-color: #ff6b6b;
+    transform: scale(1.1);
+}
+
+/* Prikaz rezultata */
+.result {
+    margin-top: 20px;
+}
+
+.selected-name {
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Animacija Djeda Mraza */
+.santa-animation {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+/* Stilizovanje input polja */
+.name-input input {
+    background-color: #f5f5f5;  /* Svetla pozadina za input polje */
+    color: #333333;              /* Tamna boja za tekst */
+    border: 1px solid #ccc;      /* Siva ivica */
+    padding: 10px;               /* Dodaj unutrašnji razmak */
+    font-size: 16px;             /* Velicina fonta */
+    border-radius: 5px;          /* Zaobljeni uglovi */
+    width: 100%;                 /* Širina inputa 100% u odnosu na roditelja */
+    box-sizing: border-box;      /* Uključi padding u ukupnu širinu inputa */
+    transition: all 0.3s ease;   /* Glatka animacija prilikom fokusa */
+}
+
+/* Stil kada je input u fokusu */
+.name-input input:focus {
+    border-color: #007bff;       /* Plava ivica kada je input u fokusu */
+    outline: none;               /* Ukloni standardni outline */
+    background-color: #e6f7ff;   /* Svetloplava pozadina */
+}
+
+/* Stil kada je input prazan */
+.name-input input:disabled {
+    background-color: #e0e0e0;   /* Sivkasta pozadina kada je input onemogućen */
+}
+
